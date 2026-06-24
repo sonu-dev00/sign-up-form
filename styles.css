@@ -3,18 +3,14 @@
   padding: 0%;
 }
 
-
-
 .container{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border: 2px solid red;
   height: 100%;
 }
 
 .left{
-  border: 2px solid yellow;
   width: 50%;
   height: 100%;
   position: relative;
@@ -30,7 +26,6 @@
 }
 
 .left > h1 {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,42 +48,91 @@
 }
 
 .right{
-  border: 2px solid green;
   width: 50%;
   display: flex;
-  justify-content: ;
   flex-direction: column;
 }
 
 .about {
-  border: 2px solid red;
   height: 40%;
   display: flex;
   align-items: self-end;
-  
+  padding-bottom: 50px;
+  padding-left: 40px;
+  background-color: rgb(209, 213, 213);
 }
 
-.forms {
-  border: 2px solid red;
-  height: 35%;
-}
 
 .down {
-  border: 2px solid red;
   height: 40%;
+  background-color: rgb(209, 213, 213);
 }
 
 .about > p {
-  border: 2px solid pink;
   margin-left: 20px;
   margin-bottom: 30px;
   margin-right: 50px;
   padding: 5px;
+  font-size:  20px;
+  font-weight: bold;
+  color: rgb(10, 9, 9);
 }
 
-.forms > h1 {
-  border: 2px solid ;
-  display: flex;
+
+
+.details {
+  width: 100%;
+  
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  background-color: rgb(221, 221, 210);
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.form-group {
+  display: grid;
+  gap: 3px;
   padding: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+button {
+  margin: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(70, 66, 66);
+  color: white;
+  font-weight: bold;
+
+}
+
+.info {
+  margin: 0px 20px;
+}
+
+button:hover {
+  background-color: rgb(50, 47, 47);
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(76, 76, 80);
+  font-family: sans-serif;
+}
+
+a:hover {
+  color: rgb(6, 6, 140);
 }
 
