@@ -21,28 +21,37 @@
                 <h1>lets do it</h1>
                 <div class="details">
                 <form action="" method="post">
-                    <fieldset>
+                    
                         <label for="first_name">first name</label>
                         <input type="text" id="first_name" name="first_name" >
                         <label for="last_name">last name</label>
                         <input type="text" id="last_name" name="last_name">
-                    </fieldset>
-                    <fieldset>
+                    
+                    
                         <label for="email">email</label>
                         <input type="email" id="email" name="email">
-                        <label for="phone">Phone Number:</label>
+                        <label for="phone">phone number</label>
                         <input type="tel" 
                         name="phone" id="phone" 
                         placeholder="123-456-7890" 
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
                         title="Please enter a valid phone number (e.g., 123-456-7890)"
                         required>
-                    </fieldset>
+                    
+                    
+                        <label for="password"> password</label>
+                        <input type="password" id="password" name="password" required minlength="8">
+                        <label for="confirm_password">confirm password</label>
+                        <input type="password" id="confirm_password" name="confirm_password" required>
+                    
                 </form>
                 </div>
             </div>
             <div class="down">
-                <footer></footer>
+                <footer>
+                    <button type="submit" >Create Account</button>
+                    <div>Already have an account?<a href="">login</a></div>
+                </footer>
             </div>
         </div>
     </div>
